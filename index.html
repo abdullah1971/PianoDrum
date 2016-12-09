@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="simpletext">
+        <h3>Hey! You Wanna Playing Piano Or Drum ? Huh? It's for you </br>
+        
+           Press Your All Alphabet Key Then Do Something Fun Stuff Here :) 
+          
+        </h3>
+    </div>
+ <!--first spell key html-->
+  <div class="keys">
+    <div data-key="81" class="key">
+      <kbd>Q</kbd>
+      <span class="sound">piano1</span>
+    </div>
+    <div data-key="87" class="key">
+      <kbd>W</kbd>
+      <span class="sound">piano2</span>
+    </div>
+    <div data-key="69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">piano3</span>
+    </div>
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">piano4</span>
+    </div>
+    <div data-key="84" class="key">
+      <kbd>T</kbd>
+      <span class="sound">piano5</span>
+    </div>
+    <div data-key="89" class="key">
+      <kbd>Y</kbd>
+      <span class="sound">piano6</span>
+    </div>
+    <div data-key="85" class="key">
+      <kbd>U</kbd>
+      <span class="sound">piano7</span>
+    </div>
+    <div data-key="73" class="key">
+      <kbd>I</kbd>
+      <span class="sound">piano8</span>
+    </div>
+    <div data-key="79" class="key">
+      <kbd>O</kbd>
+      <span class="sound">piano9</span>
+    </div>
+    <div data-key="80" class="key">
+      <kbd>P</kbd>
+      <span class="sound">piano10</span>
+    </div>
+    
+
+  </div>
+
+  <!--Second spell key html-->
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <!--Third spell key html-->
+
+  <div class="keys">
+    <div data-key="90" class="key">
+      <kbd>Z</kbd>
+      <span class="sound">piano11</span>
+    </div>
+    <div data-key="88" class="key">
+      <kbd>X</kbd>
+      <span class="sound">piano12</span>
+    </div>
+    <div data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound">piano13</span>
+    </div>
+    <div data-key="86" class="key">
+      <kbd>V</kbd>
+      <span class="sound">piano14</span>
+    </div>
+    <div data-key="66" class="key">
+      <kbd>B</kbd>
+      <span class="sound">piano15</span>
+    </div>
+    <div data-key="78" class="key">
+      <kbd>N</kbd>
+      <span class="sound">piano16</span>
+    </div>
+    <div data-key="77" class="key">
+      <kbd>M</kbd>
+      <span class="sound">piano17</span>
+    </div>
+  </div>
+ 
+   <!--first spell audio-->
+  <audio data-key="81" src="sounds/4[kb]rh55-017.wav.mp3"></audio>
+  <audio data-key="87" src="sounds/10[kb]rh55-010.wav.mp3"></audio>
+  <audio data-key="69" src="sounds/11[kb]rh55-011.wav.mp3"></audio>
+  <audio data-key="82" src="sounds/13[kb]rh55-009.wav.mp3"></audio>
+  <audio data-key="84" src="sounds/15[kb]rh55-012.wav.mp3"></audio>
+  <audio data-key="89" src="sounds/18[kb]rh55-007.wav.mp3"></audio>
+  <audio data-key="85" src="sounds/23[kb]rh55-006.wav.mp3"></audio>
+  <audio data-key="73" src="sounds/24[kb]rh55-002.wav.mp3"></audio>
+  <audio data-key="89" src="sounds/28[kb]rh55-001.wav.mp3"></audio>
+  <audio data-key="80" src="sounds/35[kb]rh55-015.wav.mp3"></audio>
+
+
+  <!--second spell audio-->
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+
+  <!--second spell audio-->
+  <audio data-key="90" src="sounds/46[kb]rh55-014.wav.mp3"></audio>
+  <audio data-key="88" src="sounds/44[kb]rh55-013.wav.mp3"></audio>
+  <audio data-key="67" src="sounds/41[kb]rh55-016.wav.mp3"></audio>
+  <audio data-key="86" src="sounds/37[kb]rh55-008.wav.mp3"></audio>
+  <audio data-key="66" src="sounds/37[kb]rh55-005.wav.mp3"></audio>
+  <audio data-key="78" src="sounds/36[kb]rh55-004.wav.mp3"></audio>
+  <audio data-key="77" src="sounds/36[kb]rh55-003.wav.mp3"></audio>
+
+
+
+<script>
+
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    if (!audio) return; // stop the fucntion from running all together
+    audio.currentTime = 0; // rewind to the start
+    audio.play();
+    key.classList.add('playing');
+  }
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return; // skip it if it's not a transform
+    this.classList.remove('playing');
+  }
+
+  const keys = document.querySelectorAll('.key');
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
+    
+</script>
+
+
+</body>
+</html>
